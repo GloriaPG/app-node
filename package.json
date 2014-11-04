@@ -1,0 +1,11 @@
+{
+  "name": "glow-app",
+  "description": "Glow Glow jugando con node a ver si es tan chingon como cuentan",
+  "author": "Gloria Palma Gonzalez <@ZatoryPrivate>",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.10.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {}
+}
