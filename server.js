@@ -5,7 +5,7 @@ var server = express();
 //Config Swig
 server.engine('html', swig.renderFile);
 server.set('view engine' , 'html');
-server.set('views', __dirname +'/apps/views/');
+server.set('views', __dirname +'/app/views/');
 
 require('./app/controllers/home')(server);
 
